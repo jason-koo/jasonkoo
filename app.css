@@ -1,0 +1,52 @@
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+.navbar{
+	background-color: #000;
+	padding: 1%;
+	font-size: 1.2em;
+}
+.navbar-brand{
+	min-height: 55px;
+	padding: 0 15px 5px;
+}
+.navbar-default .navbar-nav li a{
+	color: #D5D5D5;
+}
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:active {
+	color: #FFF;
+}
+#home {
+	background: url(https://external-preview.redd.it/YP3rOlxiO8MfV-bzOvL7RVljJak9_lpPIXoWaiKI1BM.jpg?auto=webp&s=b5d50c3273fc2cf1f957e85cc0353487c8ae7417) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+.landing-text {
+	color: #FFF;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+.landing-text h1{
+	font-size: 300%;
+	font-weight: 800%;
+}
+.padding {
+	padding: 80px;
+}
+footer {
+	width: 100%;
+	background-color: #AAA;
+	padding: 5% 5% 10%;
+	color: #FFF;
+}
+#content {
+	color: white;
+	text-align: center;
+	padding-top: 25%;
+}
